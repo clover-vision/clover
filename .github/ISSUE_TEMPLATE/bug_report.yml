@@ -29,18 +29,23 @@ body:
   - type: dropdown
     id: severity
     attributes:
-      label: What is the level of impact on current application's performance?
+      label: What is the level of impact on the current application's performance?
       options:
-      - Blocker: Causes the app to fail.
-      - Major: Indicates a significant change in business logic.
-      - Minor: Doesn’t affect functionality but impacts expected results.
-      - Trivial: Typographical errors or minor issues.
+        - Blocker
+        - Major
+        - Minor
+        - Trivial
+      description:
+        - Blocker: Causes the app to fail.
+        - Major: Indicates a significant change in business logic.
+        - Minor: Doesn’t affect functionality but impacts expected results.
+        - Trivial: Typographical errors or minor issues.
   - type: input
     id: clover-version
     attributes:
       label: Clover Version
       description: Which version of Clover are you using?
-      placeholder: ex. v0.1.0
+      placeholder: e.g. v0.1.0
     validations:
       required: true
   - type: checkboxes
