@@ -43,7 +43,7 @@ body:
         - Major
         - Minor
         - Trivial
-    description:
+    description: |
       - Blocker: Causes the app to fail.
       - Major: Indicates a significant change in business logic.
       - Minor: Doesn't affect functionality but impacts expected results.
