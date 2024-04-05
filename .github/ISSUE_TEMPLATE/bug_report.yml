@@ -43,11 +43,11 @@ body:
         - Major
         - Minor
         - Trivial
-    description: |
-      - Blocker: Causes the app to fail.
-      - Major: Indicates a significant change in business logic.
-      - Minor: Doesn't affect functionality but impacts expected results.
-      - Trivial: Typographical errors or minor issues.
+      description: |
+        - Blocker: Causes the app to fail.
+        - Major: Indicates a significant change in business logic.
+        - Minor: Doesn't affect functionality but impacts expected results.
+        - Trivial: Typographical errors or minor issues.
 
   - type: input
     id: clover-version
